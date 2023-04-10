@@ -68,7 +68,7 @@ const SignIn = ({ toggleAuthMode }: SignInProps) => {
 
 			<Button>Login</Button>
 
-			<p className="text-sm text-center">
+			<p className="text-sm flex gap-1 justify-center">
 				Don&apos;t have an account ?
 				<button
 					type="button"

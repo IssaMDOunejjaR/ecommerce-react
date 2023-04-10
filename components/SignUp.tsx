@@ -73,7 +73,7 @@ const SignUp = ({ toggleAuthMode }: SignInProps) => {
 
 			<Button>Register</Button>
 
-			<p className="text-sm text-center">
+			<p className="text-sm flex gap-1 justify-center">
 				Already have an account ?
 				<button
 					type="button"
