@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 export const api = axios.create({
-	baseURL: "http://localhost:3001",
+	baseURL: "https://vue-ecommerce-db.vercel.app",
 });
 
 export const useFetchLocal = (
