@@ -2,8 +2,6 @@ export interface Category {
 	id: number;
 	name: string;
 	image: string;
-	creationAt: string;
-	updatedAt: string;
 }
 
 export interface Product {
@@ -12,8 +10,6 @@ export interface Product {
 	price: number;
 	description: string;
 	images: string[];
-	creationAt: string;
-	updatedAt: string;
 	category: Category;
 }
 

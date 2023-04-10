@@ -1,522 +1,82 @@
 {
-  "users": [
-    {
-      "username": "test",
-      "password": "test",
-      "email": "test@test.com",
-      "cart": [],
-      "orders": [
-        {
-          "firstName": "Issam",
-          "lastName": "Ounejjar",
-          "email": "test@test.com",
-          "codePostal": "20480",
-          "address": "Bd Al Qods Residence Al Khadra",
-          "cardNumber": "89496891648798",
-          "cardSecurityCode": "456",
-          "cardExpirationDate": "2023-04-30",
-          "country": "Belgium",
-          "items": [
-            {
-              "product": {
-                "id": 178,
-                "title": "Generic Cotton Sausages",
-                "price": 31,
-                "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-                "images": [
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=7564",
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=1316",
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=1364"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 4,
-                  "name": "Shoes",
-                  "image": "https://api.lorem.space/image/shoes?w=640&h=480&r=99",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 1
-            }
-          ],
-          "orderId": 1680872550210,
-          "totalPaid": 31
-        },
-        {
-          "firstName": "Issam",
-          "lastName": "Ounejjar",
-          "email": "test@test.com",
-          "codePostal": "20480",
-          "address": "Bd Al Qods Residence Al Khadra",
-          "cardNumber": "89496891648798",
-          "cardSecurityCode": "456",
-          "cardExpirationDate": "2023-04-30",
-          "country": "Bahrain",
-          "items": [
-            {
-              "product": {
-                "id": 7,
-                "title": "Recycled Metal Bike",
-                "price": 670,
-                "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-                "images": [
-                  "https://api.lorem.space/image?w=640&h=480&r=7506",
-                  "https://api.lorem.space/image?w=640&h=480&r=7527",
-                  "https://api.lorem.space/image?w=640&h=480&r=3594"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 5,
-                  "name": "Others",
-                  "image": "https://api.lorem.space/image?w=640&h=480&r=3099",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 1
-            }
-          ],
-          "orderId": 1680872933895,
-          "totalPaid": 670
-        },
-        {
-          "firstName": "Issam",
-          "lastName": "Ounejjar",
-          "email": "test@test.com",
-          "codePostal": "20480",
-          "address": "Bd Al Qods Residence Al Khadra",
-          "cardNumber": "89496891648798",
-          "cardSecurityCode": "456",
-          "cardExpirationDate": "2023-04-30",
-          "country": "Bahrain",
-          "items": [
-            {
-              "product": {
-                "id": 7,
-                "title": "Recycled Metal Bike",
-                "price": 670,
-                "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-                "images": [
-                  "https://api.lorem.space/image?w=640&h=480&r=7506",
-                  "https://api.lorem.space/image?w=640&h=480&r=7527",
-                  "https://api.lorem.space/image?w=640&h=480&r=3594"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 5,
-                  "name": "Others",
-                  "image": "https://api.lorem.space/image?w=640&h=480&r=3099",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 1
-            },
-            {
-              "product": {
-                "id": 78,
-                "title": "Fantastic Fresh Towels",
-                "price": 942,
-                "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-                "images": [
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=45",
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=9107",
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=6341"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 4,
-                  "name": "Shoes",
-                  "image": "https://api.lorem.space/image/shoes?w=640&h=480&r=99",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 5
-            },
-            {
-              "product": {
-                "id": 125,
-                "title": "Modern Steel Shirt",
-                "price": 630,
-                "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-                "images": [
-                  "https://api.lorem.space/image?w=640&h=480&r=8164",
-                  "https://api.lorem.space/image?w=640&h=480&r=6575",
-                  "https://api.lorem.space/image?w=640&h=480&r=396"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 5,
-                  "name": "Others",
-                  "image": "https://api.lorem.space/image?w=640&h=480&r=3099",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 1
-            }
-          ],
-          "orderId": 1680872990327,
-          "totalPaid": 6010
-        },
-        {
-          "firstName": "Issam",
-          "lastName": "Ounejjar",
-          "email": "test@test.com",
-          "codePostal": "20480",
-          "address": "Bd Al Qods Residence Al Khadra",
-          "cardNumber": "89496891648798",
-          "cardSecurityCode": "456",
-          "cardExpirationDate": "2023-04-30",
-          "country": "Bangladesh",
-          "items": [
-            {
-              "product": {
-                "id": 7,
-                "title": "Recycled Metal Bike",
-                "price": 670,
-                "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-                "images": [
-                  "https://api.lorem.space/image?w=640&h=480&r=7506",
-                  "https://api.lorem.space/image?w=640&h=480&r=7527",
-                  "https://api.lorem.space/image?w=640&h=480&r=3594"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 5,
-                  "name": "Others",
-                  "image": "https://api.lorem.space/image?w=640&h=480&r=3099",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 1
-            },
-            {
-              "product": {
-                "id": 78,
-                "title": "Fantastic Fresh Towels",
-                "price": 942,
-                "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-                "images": [
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=45",
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=9107",
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=6341"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 4,
-                  "name": "Shoes",
-                  "image": "https://api.lorem.space/image/shoes?w=640&h=480&r=99",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 5
-            },
-            {
-              "product": {
-                "id": 125,
-                "title": "Modern Steel Shirt",
-                "price": 630,
-                "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-                "images": [
-                  "https://api.lorem.space/image?w=640&h=480&r=8164",
-                  "https://api.lorem.space/image?w=640&h=480&r=6575",
-                  "https://api.lorem.space/image?w=640&h=480&r=396"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 5,
-                  "name": "Others",
-                  "image": "https://api.lorem.space/image?w=640&h=480&r=3099",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 1
-            }
-          ],
-          "orderId": 1680873084968,
-          "totalPaid": 6010
-        },
-        {
-          "firstName": "Issam",
-          "lastName": "Ounejjar",
-          "email": "test@test.com",
-          "codePostal": "20480",
-          "address": "Bd Al Qods Residence Al Khadra",
-          "cardNumber": "89496891648798",
-          "cardSecurityCode": "456",
-          "cardExpirationDate": "2023-04-30",
-          "country": "Barbados",
-          "items": [
-            {
-              "product": {
-                "id": 7,
-                "title": "Recycled Metal Bike",
-                "price": 670,
-                "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-                "images": [
-                  "https://api.lorem.space/image?w=640&h=480&r=7506",
-                  "https://api.lorem.space/image?w=640&h=480&r=7527",
-                  "https://api.lorem.space/image?w=640&h=480&r=3594"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 5,
-                  "name": "Others",
-                  "image": "https://api.lorem.space/image?w=640&h=480&r=3099",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 1
-            },
-            {
-              "product": {
-                "id": 78,
-                "title": "Fantastic Fresh Towels",
-                "price": 942,
-                "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-                "images": [
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=45",
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=9107",
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=6341"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 4,
-                  "name": "Shoes",
-                  "image": "https://api.lorem.space/image/shoes?w=640&h=480&r=99",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 5
-            },
-            {
-              "product": {
-                "id": 125,
-                "title": "Modern Steel Shirt",
-                "price": 630,
-                "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-                "images": [
-                  "https://api.lorem.space/image?w=640&h=480&r=8164",
-                  "https://api.lorem.space/image?w=640&h=480&r=6575",
-                  "https://api.lorem.space/image?w=640&h=480&r=396"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 5,
-                  "name": "Others",
-                  "image": "https://api.lorem.space/image?w=640&h=480&r=3099",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 1
-            }
-          ],
-          "orderId": 1681120024879,
-          "totalPaid": 6010
-        },
-        {
-          "firstName": "Issam",
-          "lastName": "Ounejjar",
-          "email": "test@test.com",
-          "codePostal": "20480",
-          "address": "Bd Al Qods Residence Al Khadra",
-          "cardNumber": "89496891648798",
-          "cardSecurityCode": "456",
-          "cardExpirationDate": "2023-04-30",
-          "country": "Barbados",
-          "items": [
-            {
-              "product": {
-                "id": 7,
-                "title": "Recycled Metal Bike",
-                "price": 670,
-                "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-                "images": [
-                  "https://api.lorem.space/image?w=640&h=480&r=7506",
-                  "https://api.lorem.space/image?w=640&h=480&r=7527",
-                  "https://api.lorem.space/image?w=640&h=480&r=3594"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 5,
-                  "name": "Others",
-                  "image": "https://api.lorem.space/image?w=640&h=480&r=3099",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 1
-            },
-            {
-              "product": {
-                "id": 78,
-                "title": "Fantastic Fresh Towels",
-                "price": 942,
-                "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-                "images": [
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=45",
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=9107",
-                  "https://api.lorem.space/image/shoes?w=640&h=480&r=6341"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 4,
-                  "name": "Shoes",
-                  "image": "https://api.lorem.space/image/shoes?w=640&h=480&r=99",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 5
-            },
-            {
-              "product": {
-                "id": 125,
-                "title": "Modern Steel Shirt",
-                "price": 630,
-                "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-                "images": [
-                  "https://api.lorem.space/image?w=640&h=480&r=8164",
-                  "https://api.lorem.space/image?w=640&h=480&r=6575",
-                  "https://api.lorem.space/image?w=640&h=480&r=396"
-                ],
-                "creationAt": "2023-04-06T23:13:32.000Z",
-                "updatedAt": "2023-04-06T23:13:32.000Z",
-                "category": {
-                  "id": 5,
-                  "name": "Others",
-                  "image": "https://api.lorem.space/image?w=640&h=480&r=3099",
-                  "creationAt": "2023-04-06T23:13:32.000Z",
-                  "updatedAt": "2023-04-06T23:13:32.000Z"
-                }
-              },
-              "quantity": 1
-            }
-          ],
-          "orderId": 1681120098534,
-          "totalPaid": 6010
-        },
-        {
-          "firstName": "Issam",
-          "lastName": "Ounejjar",
-          "email": "test@test.com",
-          "codePostal": "20480",
-          "address": "Bd Al Qods Residence Al Khadra",
-          "cardNumber": "89496891648798",
-          "cardSecurityCode": "456",
-          "cardExpirationDate": "2023-04-30",
-          "country": "Bahrain",
-          "items": [
-            {
-              "product": {
-                "id": 233,
-                "title": "New Product",
-                "price": 10,
-                "description": "2",
-                "images": [
-                  "https://placeimg.com/640/480/any"
-                ],
-                "creationAt": "2023-04-10T06:01:48.000Z",
-                "updatedAt": "2023-04-10T06:01:48.000Z",
-                "category": {
-                  "id": 1,
-                  "name": "Clothes",
-                  "image": "https://api.lorem.space/image/fashion?w=640&h=480&r=9928",
-                  "creationAt": "2023-04-09T21:11:27.000Z",
-                  "updatedAt": "2023-04-09T21:11:27.000Z"
-                }
-              },
-              "quantity": 9
-            }
-          ],
-          "orderId": 1681120865616,
-          "totalPaid": 90
-        },
-        {
-          "firstName": "Issam",
-          "lastName": "Ounejjar",
-          "email": "test@test.com",
-          "codePostal": "20480",
-          "address": "Bd Al Qods Residence Al Khadra",
-          "cardNumber": "89496891648798",
-          "cardSecurityCode": "456",
-          "cardExpirationDate": "2023-04-30",
-          "country": "Bahamas",
-          "items": [
-            {
-              "product": {
-                "id": 67,
-                "title": "Practical Bronze Ball",
-                "price": 692,
-                "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-                "images": [
-                  "https://api.lorem.space/image?w=640&h=480&r=127",
-                  "https://api.lorem.space/image?w=640&h=480&r=8231",
-                  "https://api.lorem.space/image?w=640&h=480&r=4955"
-                ],
-                "creationAt": "2023-04-09T21:11:27.000Z",
-                "updatedAt": "2023-04-09T21:11:27.000Z",
-                "category": {
-                  "id": 5,
-                  "name": "Others",
-                  "image": "https://api.lorem.space/image?w=640&h=480&r=5484",
-                  "creationAt": "2023-04-09T21:11:27.000Z",
-                  "updatedAt": "2023-04-09T21:11:27.000Z"
-                }
-              },
-              "quantity": 3
-            },
-            {
-              "product": {
-                "id": 192,
-                "title": "Fantastic Frozen Ball",
-                "price": 739,
-                "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-                "images": [
-                  "https://api.lorem.space/image/fashion?w=640&h=480&r=7787",
-                  "https://api.lorem.space/image/fashion?w=640&h=480&r=8786",
-                  "https://api.lorem.space/image/fashion?w=640&h=480&r=6340"
-                ],
-                "creationAt": "2023-04-09T21:11:27.000Z",
-                "updatedAt": "2023-04-09T21:11:27.000Z",
-                "category": {
-                  "id": 1,
-                  "name": "Clothes",
-                  "image": "https://api.lorem.space/image/fashion?w=640&h=480&r=9928",
-                  "creationAt": "2023-04-09T21:11:27.000Z",
-                  "updatedAt": "2023-04-09T21:11:27.000Z"
-                }
-              },
-              "quantity": 5
-            }
-          ],
-          "orderId": 1681121048985,
-          "totalPaid": 5771
-        }
-      ],
-      "id": 1
-    }
-  ]
+	"users": [],
+	"products": [
+		{
+			"id": 1,
+			"title": "The Psychology of Money: Timeless lessons on wealth, greed, and happiness",
+			"price": 14.99,
+			"description": "Doing well with money isn’t necessarily about what you know. It’s about how you behave. And behavior is hard to teach, even to really smart people. Money―investing, personal finance, and business decisions―is typically taught as a math-based field, where data and formulas tell us exactly what to do. But in the real world people don’t make financial decisions on a spreadsheet. They make them at the dinner table, or in a meeting room, where personal history, your own unique view of the world, ego, pride, marketing, and odd incentives are scrambled together. In The Psychology of Money, award-winning author Morgan Housel shares 19 short stories exploring the strange ways people think about money and teaches you how to make better sense of one of life’s most important topics.",
+			"image": [
+				"https://m.media-amazon.com/images/I/71s50ZaxITL.jpg"
+			],
+			"category": {
+				"id": 1,
+				"name": "Business & Money",
+				"image": "https://www.svgrepo.com/show/476284/dollar.svg"
+			}
+		},
+		{
+			"id": 2,
+			"title": "Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!",
+			"price": 7.69,
+			"description": "April of 2022 marks a 25-year milestone for the personal finance classic Rich Dad Poor Dad that still ranks as the #1 Personal Finance book of all time. And although 25 years have passed since Rich Dad Poor Dad was first published, readers will find that very little in the book itself has changed — and for good reason. While so much in our world is changing a high speed, the lessons about money and the principles of Rich Dad Poor Dad haven’t changed. Today, as money continues to play a key role in our daily lives, the messages in Robert Kiyosaki’s international bestseller are more timely and more important than ever.",
+			"image": [
+				"https://m.media-amazon.com/images/I/81BE7eeKzAL.jpg"
+			],
+			"category": {
+				"id": 1,
+				"name": "Business & Money",
+				"image": "https://www.svgrepo.com/show/476284/dollar.svg"
+			}
+		},
+		{
+			"id": 3,
+			"title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+			"price": 13.49,
+			"description": "No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.",
+			"image": [
+				"https://m.media-amazon.com/images/I/81bGKUa1e0L.jpg"
+			],
+			"category": {
+				"id": 1,
+				"name": "Business & Money",
+				"image": "https://www.svgrepo.com/show/476284/dollar.svg"
+			}
+		},
+		{
+			"id": 4,
+			"title": "The 48 Laws of Power",
+			"price": 13.86,
+			"description": "In the book that People magazine proclaimed “beguiling” and “fascinating,” Robert Greene and Joost Elffers have distilled three thousand years of the history of power into 48 essential laws by drawing from the philosophies of Machiavelli, Sun Tzu, and Carl Von Clausewitz and also from the lives of figures ranging from Henry Kissinger to P.T. Barnum.",
+			"image": [
+				"https://m.media-amazon.com/images/I/71aG+xDKSYL.jpg"
+			],
+			"category": {
+				"id": 1,
+				"name": "Business & Money",
+				"image": "https://www.svgrepo.com/show/476284/dollar.svg"
+			}
+		},
+		{
+			"id": 5,
+			"title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+			"price": 16.19,
+			"description": "In this generation-defining self-help guide, a superstar blogger cuts through the crap to show us how to stop trying to be 'positive' all the time so that we can truly become better, happier people.",
+			"image": [
+				"https://m.media-amazon.com/images/I/71QKQ9mwV7L.jpg"
+			],
+			"category": {
+				"id": 1,
+				"name": "Business & Money",
+				"image": "https://www.svgrepo.com/show/476284/dollar.svg"
+			}
+		}
+	],
+	"categories": [
+		{
+			"id": 1,
+			"name": "Business & Money",
+			"image": "https://www.svgrepo.com/show/476284/dollar.svg"
+		}
+	]
 }
